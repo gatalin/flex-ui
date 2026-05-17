@@ -1,0 +1,84 @@
+/*
+  Flex UI — Design Tokens
+  ========================
+  Import this file once in your project's global CSS:
+
+    @import "@flex/ui/styles";
+
+  Then override any token inside your own @theme block to rebrand:
+
+    @theme {
+      --color-brand: #E53E3E;
+      --font-title: var(--font-your-custom-font), sans-serif;
+    }
+*/
+
+@theme {
+  /* ─── Fonts ─────────────────────────────────────────────── */
+  --font-title: sans-serif;
+  --font-body:  sans-serif;
+
+  /* ─── Brand colors ───────────────────────────────────────── */
+  --color-brand:               #4561DB;
+  --color-brand-soft:          #DFE8FF;
+  --color-brand-medium:        #5F81FF;
+  --color-brand-strong:        #0E1862;
+
+  --color-secondary:           #088CDA;
+  --color-secondary-soft:      #CEFDFE;
+  --color-secondary-medium:    #0BB4FE;
+  --color-secondary-strong:    #022A5F;
+
+  /* ─── Surface ────────────────────────────────────────────── */
+  --color-surface-1:           #F3F4F7;
+  --color-surface-2:           #E4E6EB;
+  --color-surface-3:           #CACED9;
+  --color-surface-4:           #B0B5C5;
+  --color-surface-inv-1:       #1F2129;
+  --color-surface-inv-2:       #353841;
+  --color-surface-inv-3:       #4B4F5C;
+  --color-surface-inv-4:       #616678;
+
+  /* ─── Content (text) ─────────────────────────────────────── */
+  --color-content-soft:        #969CAC;
+  --color-content-medium:      #616678;
+  --color-content-strong:      #1F2129;
+  --color-content-inv-soft:    #F3F4F7;
+  --color-content-inv-medium:  #E4E6EB;
+  --color-content-inv-strong:  #B0B5C5;
+
+  /* ─── Border ─────────────────────────────────────────────── */
+  --color-border-soft:         #E4E6EB;
+  --color-border-medium:       #B0B5C5;
+  --color-border-strong:       #7C8292;
+
+  /* ─── Feedback ───────────────────────────────────────────── */
+  --color-error:               #D6236A;
+  --color-error-soft:          #FED9D5;
+  --color-error-medium:        #F9316D;
+  --color-error-strong:        #5F0743;
+
+  --color-warning:             #DB7E21;
+  --color-warning-soft:        #FFF3D5;
+  --color-warning-medium:      #FFA02E;
+  --color-warning-strong:      #602706;
+
+  --color-success:             #208D28;
+  --color-success-soft:        #E3FAD6;
+  --color-success-medium:      #2FA52D;
+  --color-success-strong:      #074119;
+
+  --color-info:                #088CDA;
+  --color-info-soft:           #CEFDFE;
+  --color-info-medium:         #0BB4FE;
+  --color-info-strong:         #022A5F;
+
+  /* ─── Border Radius ──────────────────────────────────────── */
+  --radius-xs:   8px;
+  --radius-sm:   16px;
+  --radius-md:   20px;
+  --radius-lg:   30px;
+  --radius-xl:   40px;
+  --radius-2xl:  60px;
+  --radius-full: 999px;
+}
